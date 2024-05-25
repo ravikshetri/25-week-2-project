@@ -167,6 +167,8 @@ letter-spacing: 0.09em;
 
 
 .grid-container{
+    margin-left: 25px;
+    gap:10px;
     margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
