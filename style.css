@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 300; */
+    /* font-style: normal; */
+}
+
+body{
+    background-color: #000000;
+}
+
+.nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+section>h1{
+    color: white;
+    text-align: center;
+}
+
+.center-nav{
+    display: flex;
+    flex-direction: row;
+    
+}
+.center-nav>ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+.center-nav>ul>li{
+    list-style-type: none;
+}
+
+.center-nav>ul>li>a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.icons>ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+}
+
+.icons>ul>li{
+    list-style-type: none;
+}
+
+.icons>ul>li>img{
+    width: 40px;
+    height: 30px;
+}
+
+.holder{
+    color: white;
+    background: url(main-pizza-img.jpg) 
+    no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px 100px 40px;
+}
+
+.holder>p{
+    width: 400px;
+    text-align: justify;
+}
+
+.holder>div{
+    box-shadow: 3px 6px 18px 0px; background: #F24C4C; width: 400px; height: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.holder>h1{
+font-family: Quattrocento;
+font-size: 61px;
+font-weight: 700;
+line-height: 60.5px;
+letter-spacing: 0.09em;
+}
+
+.about-us>h1{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.about-us>#underline{
+    margin: auto;
+    box-shadow: 3px 6px 100px 0px; background: #F24C4C; width: 230px; height: 5px;
+}
+.about-card{
+    padding: 30px 60px;
+    color: white;
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.about-card>img{
+    border-radius: 10px;
+    height: 250px;
+    width: 50%;
+}
+
+.about-card>p{
+    margin-top: 23px;
+    text-align:start
+}
+
+#underline1{
+    margin: auto;
+    box-shadow: 3px 6px 100px 0px; background:  #B62828; width: 230px; height: 5px;
+}
+
+.uper{
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.uper>p{
+    margin-top: 30px;
+    text-align: start;
+}
+
+.cards{
+    margin-left: -35px;
+    padding: 40px;
+    display: flex;
+    gap: 9px;
+    width: 450px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.cards>div>img{
+    width: 200px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+.cards-holder{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards-body>p{
+    color: white;
+    font-size: 15px;
+    width: 300px;
+}
+
+.cards-body>h4{
+    color: #F2C94C;
+}
+
+
+
+.grid-container{
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+    grid-auto-flow: 120px;
+}
+
+.grid-container>img{
+    width: 250px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right>img{
+    width: 200px;
+    height: 100px;
+}
+
+.find-us{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.locat-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: #FFFFFF;
+}
+.left>p{
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.map{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.map>img{
+    width: 65px;
+    height: 35px;
+}
+
+.phone{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.phone>img{
+    width: 65px;
+    height: 35px;
+}
+
+.right>img{
+    width: 300px;
+    height: 200px;
+}
+
+footer{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: white;
+}
+
+#phone{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+#mail{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+#phone>img{
+    width: 65px;
+    height: 35px;
+}
+
+#mail>img{
+    width: 65px;
+    height: 35px;
+}
+
+.footer-left>img{
+  width: 190.79px;
+  height: 130.96px;
+}
+
